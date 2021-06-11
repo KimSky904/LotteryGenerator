@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+        <shape android:shape="oval">
+            //외곽선
+            <stroke android:width="4dp" android:color="@color/ballStroke"/>
+            //안에 칠해짐
+            <solid android:color="@color/ballSolid"/>
+        </shape>
+    </item>
+</selector>
