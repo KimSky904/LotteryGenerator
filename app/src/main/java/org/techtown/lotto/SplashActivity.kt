@@ -21,7 +21,7 @@ class SplashActivity : AppCompatActivity() {
             finish()
         }
         handler.postDelayed(runnable,3000)
-
+        //3초 후에 runnable객체가 실행되도록 함
         animationView.setOnClickListener{
             handler.removeCallbacks(runnable)
             val intent = Intent(this,MainActivity::class.java)

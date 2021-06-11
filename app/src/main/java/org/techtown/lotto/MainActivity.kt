@@ -19,9 +19,8 @@ class MainActivity : AppCompatActivity() {
                     it.text = "$randomNumber"
                 }
             }
-
+            //전체 3초 중에서 0.1초마다 랜덤값이 바뀜
             override fun onFinish() {
-
             }
         }
 
